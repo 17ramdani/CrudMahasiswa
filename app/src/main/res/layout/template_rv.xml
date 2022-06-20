@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_main"
+    app:cardElevation="5dp"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:longClickable="true"
+    android:foreground="?android:selectableItemBackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:background="@color/pink">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_nim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIM"/>
+            <TextView
+                android:id="@+id/tv_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"/>
+            <TextView
+                android:id="@+id/tv_alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat"/>
+            <TextView
+                android:id="@+id/tv_hobi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hobi"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
